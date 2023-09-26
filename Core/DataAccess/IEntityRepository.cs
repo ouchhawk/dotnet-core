@@ -1,7 +1,7 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System.Linq.Expressions;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess 
 {
     // this interface is created to keep the same methods of extending interfaces in one place, and consequently prevent code repetition
     // (repository pattern)
